@@ -38,7 +38,16 @@ body {
   font-weight: bold;
 }
 
-.wrapper p {
+.wrapper ul p {
   color: #946be7;
+}
+
+h1 {
+  color: white;
+  margin: 2em;
+  font-size: 5em;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 /*# sourceMappingURL=main.css.map */
