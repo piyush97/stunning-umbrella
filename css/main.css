@@ -19,5 +19,22 @@ body {
   float: right;
   background-color: #5923c6;
   height: calc(100vh -4em);
+  font-size: 1.4em;
+  line-height: 1.5em;
+  color: white;
+  padding: 2em;
+}
+
+.wrapper ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.wrapper ul li a {
+  color: white;
+  text-decoration: none;
+  display: block;
+  padding: 1em 0;
+  font-weight: bold;
 }
 /*# sourceMappingURL=main.css.map */
