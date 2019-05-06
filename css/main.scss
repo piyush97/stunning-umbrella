@@ -7,6 +7,13 @@ body {
   font-family: "Montserrat";
   background: #220954;
 }
+svg {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+}
 .wrapper {
   position: relative;
   overflow: hidden;

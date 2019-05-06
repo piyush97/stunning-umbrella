@@ -13,10 +13,13 @@
     <svg>
         <defs>
             <clipPath id="clipPath">
-                <circle class="one" cx="200" cy="400" r="1300"></circle>
+                <circle class="one" cx="200" cy="400" r="300"></circle>
             </clipPath>
         </defs>
-    </svg> <button id="open">Open Navbar</button>
+    </svg>
+
+    <button id="open">Open Navbar</button>
+
     <div class='wrapper'>
         <nav>
             <ul>
@@ -34,5 +37,14 @@
     </div>
     <h1>I make websites</h1>
 </body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
+<script>
+    var tl = new TimelineMax();
+    tl.from("nav", 1, {
+        x: 100,
+        display: 'none',
+        ease: Power2.easeOut
+    });
+</script>
 
 </html>
