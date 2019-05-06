@@ -43,3 +43,20 @@ h1 {
   top: 0;
   left: 0;
 }
+
+button {
+  position: absolute;
+  top: 0;
+  right: 20;
+  margin: 2em;
+  font-size: 1.4em;
+  background: none;
+  border: 3px solid purple;
+  color: white;
+  padding: 1em;
+  cursor: pointer;
+  outline: none;
+  &:hover {
+    background: rgba(0, 0, 0, 0.1);
+  }
+}
