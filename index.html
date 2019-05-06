@@ -13,7 +13,7 @@
     <svg>
         <defs>
             <clipPath id="clipPath">
-                <circle class="one" cx="200" cy="400" r="300"></circle>
+                <circle class="one" cx="200" cy="400" r="1300" transform="scale(0)"></circle>
             </clipPath>
         </defs>
     </svg>
@@ -45,6 +45,13 @@
         display: 'none',
         ease: Power2.easeOut
     });
+
+    tl.to("circle.one", 3, {
+        scale: 1,
+        x: 0,
+        y: -1300,
+        ease: Power2.easeOut,
+    }, "-=1");
 </script>
 
 </html>
