@@ -1,0 +1,19 @@
+body,
+html {
+  height: 100%;
+}
+body {
+  margin: 0;
+  font-family: "Montserrat";
+  background: #220954;
+}
+.wrapper {
+  position: relative;
+  overflow: hidden;
+  nav {
+    width: 20%;
+    float: right;
+    background-color: #5923c6;
+    height: calc(100vh -4em);
+  }
+}
