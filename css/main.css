@@ -23,6 +23,8 @@ body {
   line-height: 1.5em;
   color: white;
   padding: 2em;
+  -webkit-clip-path: url("#clipPath");
+          clip-path: url("#clipPath");
 }
 
 .wrapper ul {
